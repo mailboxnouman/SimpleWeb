@@ -39,6 +39,11 @@ main{
     width:280px;
     border-radius: 25px;
 }
+.logo img:hover{
+    height: 100px;
+    width:320px;
+    transition: 2s;
+}
 .nav{ 
     margin-top: 16vh;
     margin-right: 5vh;
@@ -58,6 +63,16 @@ main{
     cursor: pointer;
 
 }
+.nav ul li:hover{
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: .5s;
+}
+#signUp:hover{
+    border: 1px solid rgb(254, 0, 0) ;
+    border-radius: 15px;
+    transition: .5s;
+}
 #hide{
     visibility: hidden;
 }
@@ -76,9 +91,7 @@ main{
     margin-top: 10vh;
     color: white;
     text-align: center ;
-    /* align-items: center;
-    justify-content: center;
-    align-content: center; */
+    
 }
 .content h1{
     font-size: 5rem;
@@ -90,14 +103,18 @@ main{
 .flex{
     display: flex;
     margin-top: 14vh;
-    margin-left: 10px;
+    justify-content: space-around;
 }
 .grid1{
     color: white;
     background-color:  rgba(255, 255, 255, 0.209);
     height: 19vw;
-    width: 24.3vw;
-    margin: 0 .2vw;
+    width: 24.8vw;
+}
+.grid1:hover{
+    box-shadow: 0px 0px 8px 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: .5s;
 }
 .grid1 img{
     width: 50px;
@@ -118,4 +135,16 @@ main{
     color: white;
     border: none;
     cursor: pointer;
+}
+.grid1 button:hover{
+    padding: 15px 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(255, 47, 0);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
 }
