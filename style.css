@@ -55,6 +55,7 @@ main{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 10px;
+    cursor: pointer;
 
 }
 #hide{
@@ -116,4 +117,5 @@ main{
     border-radius: 50px;
     color: white;
     border: none;
+    cursor: pointer;
 }
